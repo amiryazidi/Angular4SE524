@@ -6,6 +6,7 @@ import { ResidenceComponent } from './residence/residence.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { DetailProductComponent } from './detail-product/detail-product.component';
 import { FormComponent } from './form/form.component';
+import { AddProductComponent } from './add-product/add-product.component';
 
 const routes: Routes = [
 {path:'home', component:HomeComponent},
@@ -14,6 +15,7 @@ const routes: Routes = [
 {path:'product', component:ProductComponent},
 {path:'residence', component:ResidenceComponent},
 {path:'form', component:FormComponent},
+{path:'addProduct', component:AddProductComponent},
 {path:'product/:id',component:DetailProductComponent},
 //route NotFound
 {path:'**',component:NotFoundComponent},
